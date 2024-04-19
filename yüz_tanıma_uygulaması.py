@@ -24,7 +24,7 @@ def open_file():
         canvas.img = img
         canvas.create_image(0, 0, anchor=tk.NW, image=img)
 
-        ## Crate ile resmi oluşturuurz. 0,0 noktasında oluşruur.Yeni resim ekleneceği zaman canvas alanına sıfırlanır.
+        ## Create ile resmi oluşturuurz. 0,0 noktasında oluştururuz.Yeni resim ekleneceği zaman canvas alanına sıfırlanır.
         #  img'nin yüklenmesini isteriz.
 
 face_cascade = cv2.CascadeClassifier('face_detector.xml')
